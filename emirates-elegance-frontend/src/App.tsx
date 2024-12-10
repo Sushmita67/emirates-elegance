@@ -9,7 +9,7 @@ import useUserState from "@/lib/states/userStates";
 import useCheckStoreState from "@/lib/states/userStoreState";
 
 // UI
-import { Navbar, Footer } from "@/components";
+import {Navbar, Footer, Reset} from "@/components";
 import { LoadingScreen } from "@/components/ui/loading";
 import { Toaster } from 'sonner'
 
@@ -33,6 +33,7 @@ import {
   VerifyDetails,
 } from "./pages";
 import ResetDetails from "./pages/ResetDetails";
+import ResetPassword from "@/components/reset/ResetPassword.tsx";
 
 
 export default function App() {
@@ -97,7 +98,8 @@ export default function App() {
             <Route path='about' element={<AboutDetails />} />
             <Route path='cart' element={<CartDetails />} />
             <Route path='collections' element={<BrowseDetails />} />
-            <Route path='reset' element={<ResetDetails />} />
+            <Route path="reset" element={<Reset />} />
+            <Route path="reset-password" element={<ResetPassword />} />
             <Route path='contact' element={<Contact />} />
 
             {/* If NOT Logged-in */}
