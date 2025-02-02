@@ -34,7 +34,7 @@ export default function Footer() {
                                 Address
                             </li>
                             <li>
-                                Gold & Diamond Park, Sheikh Zayed Road, Dubai
+                                Gold & Diamond Park, Kathmandu   Nepal
                             </li>
 
                             <br />
