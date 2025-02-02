@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3f6a43f-676c-494a-99e2-eda60b3628f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/configs/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/configs/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/checkSession.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/checkSession.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/completeResetPassword.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/completeResetPassword.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/login.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/logout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/logout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/resetPassword.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/resetPassword.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/signup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/auth/signup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/addToCart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/addToCart.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/adjustCartItem.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/adjustCartItem.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/deleteAllCartItems.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/deleteAllCartItems.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/deleteCartItem.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/deleteCartItem.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/emptyCart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/emptyCart.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/getCartItems.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/cart/getCartItems.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/contactUs/contactSupport.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/contactUs/contactSupport.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/createIsLiked.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/createIsLiked.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/createProduct.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/createProduct.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/createReview.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/createReview.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/deleteProduct.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/deleteProduct.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/deleteReview.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/deleteReview.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/getAllProduct.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/getAllProduct.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/getIsHelpful.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/getIsHelpful.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/getLikes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/getLikes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/getProduct.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/getProduct.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/getReviews.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/getReviews.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/updateIsHelpful.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/updateIsHelpful.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/updateIsLiked.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/updateIsLiked.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/updateProduct.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/updateProduct.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/updateReview.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/products/updateReview.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/store/createStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/store/createStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/store/deleteStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/store/deleteStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/store/getAllProduct.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/store/getAllProduct.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/store/getStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/store/getStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/store/updateStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/store/updateStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/completeVerify.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/completeVerify.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/deleteAccount.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/deleteAccount.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/getUser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/getUser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/getUserExtraMetaData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/getUserExtraMetaData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/shoppingDetails.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/shoppingDetails.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/updateEmail.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/updateEmail.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/updateProfilePicture.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/updateProfilePicture.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/updateUsername.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/updateUsername.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/verify.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/backend/services/user/verify.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/reset/CompleteReset.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/reset/CompleteReset.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/update/Update.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/update/Update.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/verify/CompleteVerify.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/verify/CompleteVerify.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/verify/Verify.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/verify/Verify.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2qe0ELeMAcjrHDUUAlqFddFyyll" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/emirates-elegance",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3f6a43f-676c-494a-99e2-eda60b3628f9" name="Changes" comment="" />
+      <created>1735007620379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735007620379</updated>
+      <workItem from="1735007621422" duration="800000" />
+      <workItem from="1735023466050" duration="34000" />
+      <workItem from="1735177541812" duration="1295000" />
+      <workItem from="1735183500310" duration="648000" />
+      <workItem from="1735276574385" duration="1241000" />
+      <workItem from="1735284324414" duration="90000" />
+      <workItem from="1735437603886" duration="2080000" />
+      <workItem from="1735544119513" duration="143000" />
+      <workItem from="1735609646135" duration="2175000" />
+      <workItem from="1735612965144" duration="385000" />
+      <workItem from="1735880710005" duration="2111000" />
+      <workItem from="1735991008377" duration="15000" />
+      <workItem from="1738480580085" duration="1130000" />
+      <workItem from="1738481839894" duration="1056000" />
+      <workItem from="1738482934444" duration="632000" />
+      <workItem from="1738483799194" duration="73000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
