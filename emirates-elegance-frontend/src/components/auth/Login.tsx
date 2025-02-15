@@ -56,7 +56,7 @@ export default function Login() {
         try {
             const results = await login({ email: email.toLowerCase(), password: password });
 
-            // Check on Errors store if there's a match to the Error occurred, 
+            // Check on Errors store if there's a match to the Error occurred,
             // if there's any, error type must be send to checkOnAuthError and return with its error description
             const isTheresError = errorsStore.includes(results)
             if (isTheresError) {
@@ -167,3 +167,148 @@ export default function Login() {
         </>
     )
 }
+
+
+
+// import { useState } from "react";
+// import axios, { AxiosError } from "axios";
+// import { toast } from "sonner";
+//
+// // UI
+// import { Button } from "../ui/button";
+// import { Input } from "../ui/input";
+// import { Label } from "../ui/label";
+// import Loading from "../ui/loading";
+// import { LoadingGoogleAccess } from "../ui/loading";
+//
+// // ICONS
+// import { FcGoogle } from "react-icons/fc";
+//
+// // STATES
+// import useSignupData from "@/lib/states/signupData";
+// import useUserState from "@/lib/states/userStates";
+//
+// export default function Login() {
+//     const { email: EmailFromSignup } = useSignupData();
+//     const { password: PasswordFromSignup } = useSignupData();
+//     const [email, setEmail] = useState<string>(`${EmailFromSignup}`);
+//     const [password, setPassword] = useState<string>(`${PasswordFromSignup}`);
+//     const { setIsLoggedin } = useUserState();
+//     const [loading, setLoading] = useState<boolean>(false);
+//     const [loadingGoogleAuth, setLoadingGoogleAuth] = useState<boolean>(false);
+//
+//     async function handleSubmit() {
+//         setLoading(true);
+//
+//         try {
+//             const response = await axios.post("http://localhost:5000/api/auth/login", {
+//                 email: email.toLowerCase(),
+//                 password,
+//             });
+//
+//             const { token, user_id, email: userEmail, role, photo } = response.data;
+//
+//             localStorage.setItem("token", token);
+//             localStorage.setItem("user_id", user_id);
+//             localStorage.setItem("email", userEmail);
+//             localStorage.setItem("role", role);
+//             localStorage.setItem("photo", photo);
+//
+//             setIsLoggedin(true);
+//             toast.success("Login successful!");
+//
+//             // Redirect based on role
+//             if (role === "admin") {
+//                 window.location.href = "/admin/home"; // Redirect to admin dashboard
+//             } else {
+//                 window.location.href = "/user/dashboard"; // Redirect to user dashboard
+//             }
+//         } catch (error) {
+//             const errorMessage =
+//                 (error as AxiosError)?.response?.data?.message || "Unable to login. Please try again.";
+//             toast.error(errorMessage);
+//         } finally {
+//             setLoading(false);
+//         }
+//     }
+//
+//     const handleKeyDown = (e: React.KeyboardEvent) => {
+//         if (e.key === "Enter") {
+//             e.preventDefault();
+//         }
+//     };
+//
+//     async function handleAuthWithGoogle() {
+//         setLoadingGoogleAuth(true);
+//         try {
+//             const response = await axios.get("http://localhost:5000/api/auth/google");
+//             window.location.href = response.data.redirectUrl;
+//         } catch (error) {
+//             toast.error("Failed to initiate Google login.");
+//         } finally {
+//             setLoadingGoogleAuth(false);
+//         }
+//     }
+//
+//     return (
+//         <>
+//             <div className="mt-6" onKeyDown={handleKeyDown}>
+//                 <div>
+//                     <p className="text-gray-500 text-sm mb-6">
+//                         <div className="space-y-2">
+//                             <Label htmlFor="email" className="font-bold text-black text-[15px]">Email Address</Label>
+//                             <p className="text-gray-500 text-sm">Please provide your registered email address.</p>
+//                             <Input
+//                                 className={email ? 'text-black' : ''}
+//                                 id="email"
+//                                 type="email"
+//                                 placeholder="example@email.com"
+//                                 value={email ? email : ''}
+//                                 onChange={(e) => setEmail(e.target.value)}
+//                                 required
+//                             />
+//                         </div>
+//                     </p>
+//                 </div>
+//
+//                 <div>
+//                     <div className="space-y-2">
+//                         <Label htmlFor="password" className="font-bold text-black text-[15px]">Password</Label>
+//                         <p className="text-gray-500 text-sm">Please enter your password.</p>
+//                         <Input
+//                             className={password ? 'text-black' : ''}
+//                             id="password"
+//                             type="password"
+//                             placeholder="••••••••••"
+//                             value={password || ''}
+//                             onChange={(e) => setPassword(e.target.value)}
+//                             required
+//                         />
+//                         <div className="text-sm text-gray-500 mt-2">
+//                             Having trouble logging in?{' '}
+//                             <a href="/reset" className="text-blue-900 hover:underline">Reset Password</a>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//
+//             <Button className='w-full mt-4' disabled={email.length < 3 || password.length < 8} onClick={handleSubmit}>
+//                 {loading ? (<Loading w={24} />) : 'Get in'}
+//             </Button>
+//
+//             <div className={`flex items-center text-sm my-4`}>
+//                 <div className="flex-grow border-t border-gray-300"></div>
+//                 <span className="mx-4 text-gray-500">or</span>
+//                 <div className="flex-grow border-t border-gray-300"></div>
+//             </div>
+//
+//             <Button variant="outline" className={`mx-auto w-full hover:bg-white`} onClick={handleAuthWithGoogle}>
+//                 {loadingGoogleAuth ?
+//                     (<LoadingGoogleAccess />) :
+//                     (<span className="flex">
+//                         <FcGoogle className="mr-2" size="20" /> Continue with Google
+//                     </span>)}
+//             </Button>
+//         </>
+//     );
+// }
