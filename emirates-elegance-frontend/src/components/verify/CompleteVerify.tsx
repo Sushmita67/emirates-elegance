@@ -19,7 +19,7 @@ export default function CompleteVerify({ userId, secret }: CompleteVerifyProps )
     const { isOpen, setIsOpen } = useVerificationAlertState();
 
     // Update the page title
-    document.title = `Emirates Elegance | Complete Verification`;
+    document.title = `Elegance Affair | Complete Verification`;
 
     // Send data to be verify 
     async function sendData() {

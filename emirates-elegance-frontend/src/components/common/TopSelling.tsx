@@ -21,7 +21,7 @@ interface Product {
     categories: string[]; // Single category for each product
     price: number;
     discountPrice?: number;
-    categoryId: number; // Category ID for filtering
+    categoryId: number;
 }
 
 interface Category {

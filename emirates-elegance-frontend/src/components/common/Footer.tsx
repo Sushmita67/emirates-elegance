@@ -34,7 +34,7 @@ export default function Footer() {
                                 Address
                             </li>
                             <li>
-                                Gold & Diamond Park, Sheikh Zayed Road, Dubai
+                                Kathmandu, Nepal
                             </li>
 
                             <br />
@@ -43,22 +43,22 @@ export default function Footer() {
                                 Contact
                             </li>
                             <li>
-                                <Link onClick={scrollTopFunc} to="mail:firasdabbabi@gmail.com">
-                                    emirates_elegance@gmail.com
+                                <Link onClick={scrollTopFunc} to="mail:elegance_affair@gmail.com">
+                                    elegance_affair@gmail.com
                                 </Link>
                             </li>
                             <li>
-                                +971 4 347 8089
+                                +977 9827111620
                             </li>
 
                             <br />
 
                             <li className="text-gray-400 lg:text-start text-center">
                                 <div className="flex space-x-4 text-sm my-3 lg:my-auto">
-                                    <Link onClick={scrollTopFunc} className="text-gray-400 hover:text-white" target="_blank" to="https://np.linkedin.com/in/ashish-mool">
+                                    <Link onClick={scrollTopFunc} className="text-gray-400 hover:text-white" target="_blank" to="https://t.ly/i4oSP">
                                         <FaLinkedin className="h-7 w-7" />
                                     </Link>
-                                    <Link onClick={scrollTopFunc} className="text-gray-400 hover:text-white" target="_blank" to="https://github.com//ashishmool/emirates-elegance">
+                                    <Link onClick={scrollTopFunc} className="text-gray-400 hover:text-white" target="_blank" to="https://github.com/Sushmita67/emirates-elegance">
                                         <FaGithub className="h-7 w-7" />
                                     </Link>
                                 </div>

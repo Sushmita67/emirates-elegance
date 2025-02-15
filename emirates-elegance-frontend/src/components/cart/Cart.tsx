@@ -104,7 +104,7 @@ export default function Cart() {
 
 
     // Update the page title
-    document.title = `Emirates Elegance | My Cart`;
+    document.title = `Elegance Affair | My Cart`;
 
     // Scroll top when click on Link
     function scrollTopFunc() {

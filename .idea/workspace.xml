@@ -5,54 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f6a43f-676c-494a-99e2-eda60b3628f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elegance-affair-server/config/uploads.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elegance-affair-server/uploads/IMG-1738321399031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elegance-affair-server/uploads/IMG-1738321418757.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elegance-affair-server/uploads/IMG-1738322235631.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elegance-affair-server/uploads/IMG-1738323173127.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/configs/config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/dummyData.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/mockPasswordReset.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/data/mockSession.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/auth/checkSession.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/auth/completeResetPassword.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/auth/googleAuth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/auth/login.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/auth/logout.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/auth/resetPassword.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/auth/signup.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/cart/addToCart.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/cart/adjustCartItem.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/cart/deleteAllCartItems.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/cart/deleteCartItem.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/cart/emptyCart.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/cart/getCartItems.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/contactUs/contactSupport.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/createIsLiked.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/createProduct.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/createReview.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/deleteProduct.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/deleteReview.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/getAllProduct.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/getIsHelpful.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/getLikes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/getProduct.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/getReviews.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/updateIsHelpful.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/updateIsLiked.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/updateProduct.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/products/updateReview.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/store/createStore.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/store/deleteStore.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/store/getAllProduct.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/store/getStore.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/store/updateStore.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/user/completeVerify.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/user/deleteAccount.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/user/getUser.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/user/getUserExtraMetaData.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/user/shoppingDetails.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/user/updateEmail.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/user/updateProfilePicture.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/user/updateUsername.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/user/verify.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elegance-affair-server/controller/AuthController.js" beforeDir="false" afterPath="$PROJECT_DIR$/elegance-affair-server/controller/AuthController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elegance-affair-server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/elegance-affair-server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elegance-affair-server/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/elegance-affair-server/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elegance-affair-server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/elegance-affair-server/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elegance-affair-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/elegance-affair-server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elegance-affair-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/elegance-affair-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elegance-affair-server/routes/AuthRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/elegance-affair-server/routes/AuthRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/about/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/settings/GetDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/emirates-elegance-frontend/src/components/settings/GetDialog.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,30 +47,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/emirates-elegance&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/classwork/redux-ecommerce-large-project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "show.migrate.to.gradle.popup": "false",
+    "ts.external.directory.path": "C:\\emirates-elegance\\emirates-elegance-frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -125,6 +96,11 @@
       <workItem from="1738482934444" duration="632000" />
       <workItem from="1738483799194" duration="73000" />
       <workItem from="1738488972998" duration="58000" />
+      <workItem from="1738490527713" duration="1112000" />
+      <workItem from="1738640818621" duration="843000" />
+      <workItem from="1739095478404" duration="2935000" />
+      <workItem from="1739129935867" duration="3441000" />
+      <workItem from="1739283699476" duration="1483000" />
     </task>
     <servers />
   </component>
