@@ -1,5 +1,5 @@
 // import { useState } from "react";
-// // import { signup } from "@/backend/services/auth/signup";
+// import { signup } from "@/backend/services/auth/signup";
 // import { useForm } from 'react-hook-form'
 // import * as yup from 'yup'
 // import { yupResolver } from '@hookform/resolvers/yup'
@@ -252,6 +252,7 @@
 //     )
 // }
 
+
 import { useState } from "react";
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
@@ -303,7 +304,7 @@ export default function Signup() {
         setServerError("");
 
         try {
-            const response = await fetch("http://localhost:5000/api/users/save", {
+            const response = await fetch("http://localhost:5000/api/auth/register", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

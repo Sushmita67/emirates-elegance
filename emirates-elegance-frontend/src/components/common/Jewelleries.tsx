@@ -47,6 +47,7 @@ import { IoShareSocial } from 'react-icons/io5';
 import { FaRegCopy, FaRegEdit } from "react-icons/fa";
 import { getProducts } from '@/backend/services/store/getAllProduct';
 import { RiArrowUpDownFill } from 'react-icons/ri';
+import { FaShoppingCart } from 'react-icons/fa';  // Import the shopping cart icon
 
 
 // SERVICES
